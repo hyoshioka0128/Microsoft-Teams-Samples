@@ -1,6 +1,6 @@
 ---
 page_type: sample
-description: This Azure Open AI sample app demonstrates the user search functionality based on Azure Open AI embeddings and completion APIs for user queries using Redis DB, and it is based on files uploaded by an admin using a bot.
+description: This Azure OpenAI sample app demonstrates the user search functionality based on Azure OpenAI embeddings and completion APIs for user queries using Redis DB, and it is based on files uploaded by an admin using a bot.
 products:
 - office-teams
 - office
@@ -12,14 +12,14 @@ extensions:
  createdDate: "07/28/2023 13:38:25 PM"
 urlFragment: officedev-microsoft-teams-samples-open-ai-search-file-upload-nodejs
 ---
-# Teams Azure Open AI Embeddings And Redis Search On Uploaded File Using Bot
+# Teams Azure OpenAI Embeddings And Redis Search On Uploaded File Using Bot
 
-This bot has been created using [Bot Builder](https://www.npmjs.com/package/botbuilder) and [Teams Toolkit](https://learn.microsoft.com/microsoftteams/platform/toolkit/toolkit-v4/teams-toolkit-fundamentals-v4?view=msteams-client-js-latest&pivots=visual-studio-code), this Azure Open AI sample app demonstrates the user search functionality based on Azure Open AI embeddings, Redis DB search and completion APIs for user queries, and it is based on files uploaded by an admin using a bot.
+This bot has been created using [Bot Builder](https://www.npmjs.com/package/botbuilder) and [Teams Toolkit](https://learn.microsoft.com/microsoftteams/platform/toolkit/toolkit-v4/teams-toolkit-fundamentals-v4?view=msteams-client-js-latest&pivots=visual-studio-code), this Azure OpenAI sample app demonstrates the user search functionality based on Azure OpenAI embeddings, Redis DB search and completion APIs for user queries, and it is based on files uploaded by an admin using a bot.
 
 ## Included Features
 * Bots
 * Adaptive Cards
-* Azure Open AI
+* Azure OpenAI
 * Redis Search
 * Blob Storage
 
@@ -39,7 +39,7 @@ This bot has been created using [Bot Builder](https://www.npmjs.com/package/botb
 - An M365 account. If you do not have M365 account, apply one from [M365 developer program](https://developer.microsoft.com/microsoft-365/dev-program)
 - [Teams Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [TeamsFx CLI](https://aka.ms/teamsfx-cli)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Azure Open AI](https://platform.openai.com/docs/quickstart/build-your-application) or [Azure OpenAI](https://azure.microsoft.com/free/)
+- [Azure OpenAI](https://platform.openai.com/docs/quickstart/build-your-application) or [Azure OpenAI](https://azure.microsoft.com/free/)
 - [Create a Redis Enterprise cache](https://learn.microsoft.com/azure/azure-cache-for-redis/quickstart-create-redis-enterprise)
 
 ## Run the app (Using Teams Toolkit for Visual Studio Code)
@@ -163,10 +163,10 @@ the Teams service needs to call into the bot.
 1. File Uploaded Successfully:
 ![uploaded-file-saved ](images/Admin/10_UploadedFileSaved.png)
 
-1. Now, admin can ask query based on the uploaded docs and Azure Open AI will generate the embedding for query and search the most relevant vectors for user query in the Redis search database based on the embeddings generated for uploaded file contents.
+1. Now, admin can ask query based on the uploaded docs and Azure OpenAI will generate the embedding for query and search the most relevant vectors for user query in the Redis search database based on the embeddings generated for uploaded file contents.
 ![ask-query ](images/Admin/11_AskQuery.png)
 
-1. Admin will get the final answer based on the uploaded docs using Azure Open AI completion model:
+1. Admin will get the final answer based on the uploaded docs using Azure OpenAI completion model:
 ![final-answer ](images/Admin/12_FinalResult.png)
 
 ### User Functionalities
@@ -176,10 +176,10 @@ the Teams service needs to call into the bot.
 1. Welcome Card:
 ![welcome-card ](images/User/6_WelcomeCard.png)
 
-1. User can ask query based on the uploaded docs by admin and Azure Open AI will generate the embedding for query and search the most relevant vectors for user query in the Redis search database based on the embeddings generated for uploaded file contents.
+1. User can ask query based on the uploaded docs by admin and Azure OpenAI will generate the embedding for query and search the most relevant vectors for user query in the Redis search database based on the embeddings generated for uploaded file contents.
 ![ask-query ](images/User/7_AskQuery.png)
 
-1. User will get the final answer based on the uploaded docs using Azure Open AI completion model:
+1. User will get the final answer based on the uploaded docs using Azure OpenAI completion model:
 ![final-answer ](images/User/8_FinalResult.png)
 
 ## Deploy to Azure
