@@ -1,6 +1,6 @@
 ---
 page_type: sample
-description: This sample shows a feature where user can check sentiment for teams' chat messages by using messaging extension and Azure Open AI.
+description: This sample shows a feature where user can check sentiment for teams' chat messages by using messaging extension and Azure OpenAI.
 products:
 - office-teams
 - office
@@ -13,13 +13,13 @@ extensions:
 urlFragment: officedev-microsoft-teams-samples-msgext-ai-sentiment-analysis-nodejs
 ---
 
-# Sentiment Analysis for Teams chat messages using Azure Open AI and messaging extension.
+# Sentiment Analysis for Teams chat messages using Azure OpenAI and messaging extension.
 
-This sample shows a feature where user can analyze sentiments for messages posted in Teams chat using messaging extension and Azure Open AI.
+This sample shows a feature where user can analyze sentiments for messages posted in Teams chat using messaging extension and Azure OpenAI.
 
 ## Included Features
 * ME
-* Azure Open AI For Sentiment Analysis
+* Azure OpenAI For Sentiment Analysis
 
 ## Interaction with app
 
